@@ -79,11 +79,11 @@ void main() {
     'Sokea',
     40000,
     [Skill.OTHER],
-    Address("Street 71", "Phnom Penh", "12201"),
+    Address("Phnom Penh", "Street 71", "12201"),
     2,
   );
   emp1.printDetails();
 
-  var emp2 = Employee.mobileDeveloper('Ronan', 45000,Address("Street 168","Phnom Penh","12001"), 5);
+  var emp2 = Employee.mobileDeveloper('Ronan', 45000,Address("Phnom Penh","Street 168","12001"), 5);
   emp2.printDetails();
 }
